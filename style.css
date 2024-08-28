@@ -1,25 +1,31 @@
 * {
     box-sizing: border-box;
-    border: 0px;
+    margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: #ffb6c1;
 }
 
 #grid-container {
     display: flex;
     flex-wrap: wrap;
-    width: 672px;
-    height: 672px;
-    max-width: 1200px;
+    height: 800px;
+    width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    flex-shrink: 0;
 }
 
 .div-box:hover {
-    background-color: #ff0000;
+    background-color: #add8e6;
 }
 
 
 h1 {
     text-align: center;
+    margin: 2vh;
 }
 
 #resetButton {

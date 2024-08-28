@@ -8,14 +8,13 @@ function createGrid(gridNumber) {
     for (i = 0; i < (gridNumber * gridNumber); i++) {
         let div = document.createElement("div");
         div.setAttribute("class", "div-box");
-        div.style.padding = "20px";
+        div.style.height = `${800/gridNumber}px`;
+        div.style.width = `${800/gridNumber}px`;
         div.style.outline = "solid 1px";
-        div.style.marginTop = "1px";
-        div.style.marginLeft =  "1px";
         gridContainer.appendChild(div);
         
     div.addEventListener("mouseover", () => {
-        div.style.backgroundColor = "red";
+        div.style.backgroundColor = "#add8e6";
     });
     };
 }
