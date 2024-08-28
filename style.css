@@ -13,11 +13,23 @@
     margin: 0 auto;
 }
 
-#div-box:hover {
+.div-box:hover {
     background-color: #ff0000;
 }
 
 
 h1 {
     text-align: center;
+}
+
+#resetButton {
+    padding: 10px;
+    border-radius: 10px;
+    border: dotted 3px red;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btnContainer {
+    margin-bottom: 20px;
 }
