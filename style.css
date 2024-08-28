@@ -9,4 +9,10 @@
     flex-wrap: wrap;
     width: 672px;
     height: 672px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
 }
