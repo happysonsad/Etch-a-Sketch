@@ -14,8 +14,9 @@
 }
 
 #div-box:hover {
-    background-color: red;
+    background-color: #ff0000;
 }
+
 
 h1 {
     text-align: center;
