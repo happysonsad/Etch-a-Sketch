@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+#div-box:hover {
+    background-color: red;
+}
+
 h1 {
     text-align: center;
 }
